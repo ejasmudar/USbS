@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<settings>
+  <group title="Info on Screen">
+	<text key="/apps/ControlPanel/USbS/Script" title="Please enter plugin name (incl .sh)" >
+    </text>
+	<text key="/apps/ControlPanel/USbS/FColour" title="Please enter colour Name/HexCode" >
+    </text>
+      <selection key="/apps/ControlPanel/USbS/Tint" title="Please select Time Interval">
+        <option title="10 sec" >10</option>
+        <option title="30 sec" >30</option>
+        <option title="1 min" >60</option>
+        <option title="5 min" >300</option>
+		<option title="10 min" >600</option>
+    </selection>
+  </group>
+  <group title="Plugin Variables">
+  <text key="/apps/ControlPanel/USbS/Rndfile" title="Please enter Random File Name (incl. extension)" >
+    </text>
+  <text key="/apps/ControlPanel/USbS/Loc" title="Please enter Location for weather" >
+    </text>
+  </group>
+</settings>

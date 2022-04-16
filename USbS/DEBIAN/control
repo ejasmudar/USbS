@@ -1,0 +1,10 @@
+Package: USbS
+Version: 0.2
+Architecture: armel
+Depends: python, python-imaging, python-gconf, wget
+Replace: LockScreenQuotes
+Description: Script to show info while screen is in LowPowerMode (only for N9)
+Maintainer: Ejas <ejasmudar@gmail.com>
+Author: Ejas <ejasmudar@gmail.com>
+Section: user/Utilities+
+XB-Maemo-Display-Name: LockScreenQuotes

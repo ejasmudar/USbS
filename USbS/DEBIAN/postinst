@@ -1,0 +1,8 @@
+#!/bin/sh
+chmod +x /usr/bin/USbS.sh
+/usr/bin/aegis-exec -s -u user /usr/bin/gconftool -s --type=string /apps/ControlPanel/USbS/Script "random_line.sh"
+/usr/bin/aegis-exec -s -u user /usr/bin/gconftool -s --type=int /apps/ControlPanel/USbS/Tint 60
+/usr/bin/aegis-exec -s -u user /usr/bin/gconftool -s --type=string /apps/ControlPanel/USbS/Rndfile "Scripts/taglines.txt"
+/usr/bin/aegis-exec -s -u user /usr/bin/gconftool -s --type=string /apps/ControlPanel/USbS/Loc "Kuwait"
+/usr/bin/aegis-exec -s -u user /usr/bin/gconftool -s --type=string /apps/ControlPanel/USbS/FColour "White"
+exit 0
